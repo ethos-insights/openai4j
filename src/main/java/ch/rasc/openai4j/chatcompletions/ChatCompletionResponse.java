@@ -303,7 +303,7 @@ public record ChatCompletionResponse(String id, List<Choice> choices, int create
 		 * Reasoning token details.
 		 */
 		@Override
-		public int completionTokensDetails() {
+		public CompletionTokensDetails completionTokensDetails() {
 			return this.completionTokensDetails;
 		}
 
